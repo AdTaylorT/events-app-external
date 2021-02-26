@@ -1,19 +1,22 @@
 {{#events}}
 <div class="col">
-<div class="card" style="width: 15rem; margin-bottom: 1rem;">
-    <div class="card-body bg-light">
-        <svg class="bd-placeholder-img card-img-top" alt="..."><rect width="100%" height="100%" fill="#868e96"></rect></svg>
-        <!-- TODO <img src="uri" ... instead of svg 
+    <div class="card" style="width: 15rem; margin-bottom: 1rem;">
+        <div class="card-body bg-light">
+            <!-- delete when building image -->
+            <svg class="bd-placeholder-img card-img-top" alt="...">
+                <rect width="100%" height="100%" fill="#868e96"></rect>
+            </svg>
+            <!-- TODO <img src="uri" ... instead of svg 
             <svg class="bd-placeholder-img card-img-top" alt="..."></svg> -->
-        <h5 class="card-title">{{title}}</h5>
-        <p class="card-text">{{description}}</p>
+            <h5 class="card-title">{{title}}</h5>
+            <p class="card-text">{{description}}</p>
 
-        <!-- TODO Future Date functionality 
+            <!-- TODO Future Date functionality 
             <a href="#" class="btn btn-primary">Go somewhere</a> -->
+        </div>
+        <div class="card-footer text-muted">
+            2 days ago
+        </div>
     </div>
-    <div class="card-footer text-muted">
-    2 days ago
-    </div>
-</div>
 </div>
 {{/events}}
